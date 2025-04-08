@@ -35,3 +35,5 @@ export const LoadingScreen = ({ onComplete }) => {
     </div>
   );
 };
+
+export default LoadingScreen;
