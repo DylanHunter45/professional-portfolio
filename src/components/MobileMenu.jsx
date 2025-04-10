@@ -18,7 +18,6 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         &times;
       </button>
-
       <a
         href="#home"
         onClick={() => setMenuOpen(false)}
