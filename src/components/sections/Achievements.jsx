@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class Achievements extends Component {
   render() {
-    return <div>Achievements</div>;
+    return <div>My Achievements</div>;
   }
 }
 
