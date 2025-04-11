@@ -30,7 +30,7 @@ export class About extends Component {
                   {backendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246, 0.2)] transition"
+                      className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.2)] transition"
                     >
                       {tech}
                     </span>
