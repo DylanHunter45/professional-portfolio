@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 //from-blue-500 to-purple-500 bg-clip-text text-transparent <- for gradient text
+//https://uiverse.io/                                       <- for ui
+//https://www.reactbits.dev/                                <- for ui + ux
 
 export class Home extends Component {
   render() {
