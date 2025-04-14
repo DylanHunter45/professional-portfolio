@@ -33,8 +33,7 @@ export class About extends Component {
               </div>
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                 <h3 className="text-xl font-bold mb-4">
-                  {" "}
-                  Frontend Technologies{" "}
+                  Frontend Technologies
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
@@ -70,15 +69,13 @@ export class About extends Component {
                 <div className="space-y-4 text-gray-300">
                   <div>
                     <h4 className="font-semibold">
-                      {" "}
                       Job 1 at First Job Corp 2022 - Present
                     </h4>
                     <p> Did stuff and things </p>
                   </div>
                   <div>
                     <h4 className="font-semibold">
-                      {" "}
-                      Job 2 at First Job Corp 2021 - 2022{" "}
+                      Job 2 at First Job Corp 2021 - 2022
                     </h4>
                     <p> Did stuff and things </p>
                   </div>
