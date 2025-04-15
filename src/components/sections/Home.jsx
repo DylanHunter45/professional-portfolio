@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { HiChevronDoubleDown } from "react-icons/hi";
 //from-blue-500 to-purple-500 bg-clip-text text-transparent <- for gradient text
 //https://uiverse.io/                                       <- for ui
 //https://www.reactbits.dev/                                <- for ui + ux
@@ -12,10 +13,16 @@ export class Home extends Component {
       >
         <div className="text-center x-10 px-4">
           <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-gradient-to-r  leading-right">
-            Hello, my name is Dylan Hunter.
+            Dylan Hunter
           </h1>
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I like stuff and things.
+          <p className="tex-gray-400 text-lg mb-8 max-w-6xl mx-auto">
+            Software Engineer passionate about building scalable systems, clean
+            code, and innovative tech. Experienced in back-end development, RPA
+            Development, and turning ideas into production-ready software.
+            <br />
+            <br />
+            Click through the main sections of my profile below of scroll
+            through my portfolio to learn more about me! 😀
           </p>
           <div className="flex justify-center space-x-4">
             <a
@@ -36,6 +43,9 @@ export class Home extends Component {
             >
               Contact Me
             </a>
+          </div>
+          <div className="flex justify-center mt-10 animate-bounce text-gray-500 py-7">
+            <HiChevronDoubleDown size={50} />
           </div>
         </div>
       </section>
