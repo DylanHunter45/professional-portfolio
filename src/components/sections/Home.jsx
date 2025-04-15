@@ -12,7 +12,7 @@ export class Home extends Component {
         className="min-h-screen flex items-center justify-center relative"
       >
         <div className="text-center x-10 px-4">
-          <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-gradient-to-r  leading-right">
+          <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-gradient-to-r leading-right">
             Dylan Hunter
           </h1>
           <p className="tex-gray-400 text-lg mb-8 max-w-6xl mx-auto">
@@ -24,7 +24,7 @@ export class Home extends Component {
             Click through the main sections of my profile below of scroll
             through my portfolio to learn more about me! 😀
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex justify-center space-x-4 pb-10">
             <a
               href="#projects"
               className="bg-blue-700 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-05 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
@@ -44,7 +44,7 @@ export class Home extends Component {
               Contact Me
             </a>
           </div>
-          <div className="flex justify-center mt-10 animate-bounce text-gray-500 py-7">
+          <div className="flex justify-center mt-10 animate-bounce text-gray-500">
             <HiChevronDoubleDown size={50} />
           </div>
         </div>
