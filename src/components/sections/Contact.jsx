@@ -33,13 +33,13 @@ export default function Contact() {
       id="contact"
       className="min-h-screen flex items-center justify-center py-20"
     >
-      <div className="px-4 w-150">
-        <h2 className="text-3xl font-bold mb-8 text-center">
+      <div className="px-3 w-150">
+        <h2 className="text-3xl font-bold mb-6 text-center">
           Please Reach Out!
         </h2>
-        <h4 className="text-sm mb-2 text-center">
+        <h4 className="text-sm mb-1.5 text-center">
           Reach out to dylanhunter34@gmail.com if there are any issues with the
-          form!
+          form.
         </h4>
         <form className="space-y-6" onSubmit={onSubmit}>
           <div className="relative">
@@ -75,7 +75,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-500 text-white py-3 px-6 font medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+            className="w-full bg-blue-700 border border-blue-700 rounded text-white py-3 px-6 font medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
           >
             Send
           </button>
