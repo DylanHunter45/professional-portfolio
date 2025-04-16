@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub, FaSuitcase, FaHome } from "react-icons/fa";
 import {
   HiChevronDoubleDown,
@@ -14,7 +15,7 @@ export class Home extends Component {
     return (
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative"
+        className="min-h-screen flex items-center justify-center relative smooth-scroll"
       >
         <div className="text-center x-10 px-4">
           <h1 className="text-4xl md:text-7xl font-bold mb-2 bg-gradient-to-r leading-right">
@@ -88,7 +89,14 @@ export class Home extends Component {
             </a>
           </div>
           <div className="flex justify-center mt-10 animate-bounce text-gray-500">
-            <HiChevronDoubleDown size={50} />
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer hover:underline"
+            >
+              <HiChevronDoubleDown size={50} />
+            </Link>
           </div>
         </div>
       </section>
