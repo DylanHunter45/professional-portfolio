@@ -56,7 +56,7 @@ export class Home extends Component {
               rel="noopener noreferrer"
               className="text-gray-100"
             >
-              <HiOutlineDocumentText size={28} />
+              <HiOutlineDocumentText size={30} />
             </a>
           </div>
           <p className="tex-gray-400 text-lg mb-8 max-w-6xl mx-auto">
