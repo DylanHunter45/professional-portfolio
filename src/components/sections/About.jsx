@@ -28,11 +28,11 @@ export class About extends Component {
           <h2 className="text-3xl font-bold mb-8 text-center">About me</h2>
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.2)] transition-all">
             <p className="text-gray-300 mb-6">
-              I'm a software developer 3 years of professional experience with a
-              strong focus on backend development, specializing in building
-              scalable, efficient, and secure systems. I enjoy working behind
-              the scenes to design robust APIs, manage databases, and optimize
-              performance to bring complex applications to life.
+              I'm a software developer with 3 years of professional experience
+              with a strong focus on backend development, specializing in
+              building scalable, efficient, and secure systems. I enjoy working
+              behind the scenes to design robust APIs, manage databases, and
+              optimize performance to bring complex applications to life.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
