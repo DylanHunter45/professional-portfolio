@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { HiChevronDoubleDown } from "react-icons/hi";
+import { FaLinkedin, FaGithub, FaSuitcase, FaHome } from "react-icons/fa";
+import {
+  HiChevronDoubleDown,
+  HiOutlineDocumentText,
+  HiOutlineMail,
+} from "react-icons/hi";
 //from-blue-500 to-purple-500 bg-clip-text text-transparent <- for gradient text
 //https://uiverse.io/                                       <- for ui
 //https://www.reactbits.dev/                                <- for ui + ux
@@ -12,9 +17,47 @@ export class Home extends Component {
         className="min-h-screen flex items-center justify-center relative"
       >
         <div className="text-center x-10 px-4">
-          <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-gradient-to-r leading-right">
+          <h1 className="text-4xl md:text-7xl font-bold mb-2 bg-gradient-to-r leading-right">
             Dylan Hunter
           </h1>
+          <div className="flex justify-center gap-3 mb-2 text-gray-600">
+            <div className="flex items-center gap-2">
+              <FaSuitcase size={28} />
+              <span>Software Developer at Justice Canada</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FaHome size={28} />
+              <span>Ontario, CA</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <HiOutlineMail size={28} />
+              <span>dylanhunter34@gmail.com</span>
+            </div>
+
+            <a
+              href="https://www.linkedin.com/in/dylan-j-hunter/"
+              target="_blank"
+              className="text-blue-600"
+            >
+              <FaLinkedin size={28} />
+            </a>
+            <a
+              href="https://github.com/DylanHunter45"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100"
+            >
+              <FaGithub size={28} />
+            </a>
+            <a
+              href="professional-portfolio/Dylan Hunter Resume 2024 old.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-100"
+            >
+              <HiOutlineDocumentText size={28} />
+            </a>
+          </div>
           <p className="tex-gray-400 text-lg mb-8 max-w-6xl mx-auto">
             Software Engineer passionate about building scalable systems, clean
             code, and innovative tech. Experienced in back-end development, RPA
