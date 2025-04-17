@@ -27,7 +27,7 @@ export class Achievements extends Component {
                     exeeded project expectations and milestones.
                   </li>
                   <a
-                    href="professional-portfolio/Dylan Hunter Resume 2024 old.pdf"
+                    href="professional-portfolio/Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-right text-red-500"
@@ -42,9 +42,12 @@ export class Achievements extends Component {
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.2)] transition-all">
                 <h3 className="text-xl font-bold mb-4">Dean's Honours List</h3>
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
-                  <li>Achieved an average GPA of 3.8/4.0 during my studies.</li>
+                  <li>
+                    Achieved an average GPA of 3.8/4.0 during my studies.
+                    Achieved a letter for each semester
+                  </li>
                   <a
-                    href="professional-portfolio/Dylan Hunter Resume 2024 old.pdf"
+                    href="professional-portfolio/Deans_Honour_All.PDF"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-right text-red-500"
