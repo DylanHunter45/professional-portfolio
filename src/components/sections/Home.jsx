@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaGithub, FaSuitcase, FaHome } from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa6";
 import {
   HiChevronDoubleDown,
   HiOutlineDocumentText,
@@ -54,9 +55,9 @@ export class Home extends Component {
               href="professional-portfolio/Dylan Hunter Resume 2024 old.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-100"
+              className="text-red-500"
             >
-              <HiOutlineDocumentText size={30} />
+              <FaFilePdf size={28} />
             </a>
           </div>
           <p className="tex-gray-400 text-lg mb-8 max-w-6xl mx-auto">
