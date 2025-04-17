@@ -95,7 +95,7 @@ export class About extends Component {
                     Algonquin College (2020 - 2024)
                   </li>
                   <li>
-                    <strong> 3.9/4.0 GPA</strong>
+                    <strong> 3.8/4.0 GPA</strong>
                   </li>
                   <li>
                     Recieved Applied Research Showcase Award for Ai Brand
