@@ -27,7 +27,7 @@ export class Achievements extends Component {
                     exeeded project expectations and milestones.
                   </li>
                   <a
-                    href="/Moving_Markers_Award.pdf"
+                    href="./Moving_Markers_Award.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-right text-red-500"
