@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+import { FaFilePdf } from "react-icons/fa6";
 //add skills manually whenever new skills are learned
 const backendSkills = [
   "Python",
@@ -70,7 +72,7 @@ export class About extends Component {
                   <div>
                     <h4 className="font-semibold">
                       Software Developer / IT Analyst at Justice Canada | Sep.
-                      2022 - Present
+                      2022 - Present <br></br>
                     </h4>
                   </div>
                   <div>
