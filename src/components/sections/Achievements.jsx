@@ -27,7 +27,7 @@ export class Achievements extends Component {
                     exeeded project expectations and milestones.
                   </li>
                   <a
-                    href="professional-portfolio/Moving_Markers_Award.pdf"
+                    href="/Moving_Markers_Award.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-right text-red-500"
@@ -47,7 +47,7 @@ export class Achievements extends Component {
                     Achieved a letter for each semester
                   </li>
                   <a
-                    href="professional-portfolio/Deans_Honour_All.PDF"
+                    href="/Deans_Honour_All.PDF"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex justify-right text-red-500"
