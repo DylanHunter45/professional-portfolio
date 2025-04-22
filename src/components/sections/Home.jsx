@@ -52,7 +52,7 @@ export class Home extends Component {
               <FaGithub size={28} />
             </a>
             <a
-              href="/Resume.pdf"
+              href="professional-portfolio/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-red-500"
