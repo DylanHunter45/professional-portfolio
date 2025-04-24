@@ -19,16 +19,21 @@ export class Projects extends Component {
                 dedicated to logging monthly beans and cups a coffee.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Vite", "Node.js", "Express.js", "Firebase"].map(
-                  (tech, key) => (
-                    <span
-                      key={key}
-                      className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.2)] transition"
-                    >
-                      {tech}
-                    </span>
-                  )
-                )}
+                {[
+                  "React",
+                  "Vite",
+                  "Node.js",
+                  "Express.js",
+                  "Firebase",
+                  "API's",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246, 0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
               <div className="flex justify-between items-center">
                 <a
